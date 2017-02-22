@@ -18,7 +18,9 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                type: "POST",
+                url: "https://formspree.io/encius@gmail.com",
+                method: "POST",
+                dataType: "json",
                 data: {
                     name: name,
                     phone: phone,
