@@ -1,0 +1,65 @@
+url: https://y7kim.github.io
+baseurl: ""
+
+# Site settings
+title: WantSome
+email: getsome@wantsome.ro
+description: "The friendly IT academy"
+
+
+# Team names, titles and social links
+people:
+- name: Iuliana Anton
+  pic: 1
+  position: Founder
+  social:
+    - title: linkedin
+      url: http://linkedin.com/in/iulianaanton
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Enciu Stoica
+  pic: 2
+  position: Founder & Trainer
+  social:
+    - title: linkedin
+      url: http://linkedin.com/in/iulianaanton
+    - title: facebook
+      url: #
+    - title: twitter
+      url: #
+
+- name: Diana Petersen
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/wantsome
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url:
+  - title: bitbucket
+    url:
+  - title: github
+    url:
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Str. Voievozilor nr. 555
+  - line: Iasi, Romania
+
+# Build settings
+markdown: kramdown
+permalink: pretty
