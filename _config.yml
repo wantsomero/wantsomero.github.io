@@ -10,7 +10,7 @@ description: "The friendly IT academy"
 # Team names, titles and social links
 people:
 - name: Iuliana Anton
-  pic: 1
+  pic: iuliana
   position: Founder
   social:
     - title: linkedin
@@ -21,7 +21,7 @@ people:
       url: #
 
 - name: Enciu Stoica
-  pic: 2
+  pic: enciu
   position: Founder & Trainer
   social:
     - title: linkedin
