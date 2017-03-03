@@ -50,6 +50,18 @@ people:
       url: #
     - title: twitter
       url: #
+
+- name: Liviu Costea
+  pic: liviu
+  position: Trainer
+  social:
+    - title: linkedin
+      url: https://linkedin.com/in/liviucostea
+    - title: facebook
+      url: #
+    - title: twitter
+      url: #
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
