@@ -7,7 +7,7 @@ date: 2014-07-16
 img: fa-codepen
 thumbnail: fa-codepen
 alt: image-alt
-project-date: April 2017
+project-date: Aprilie 2017
 client: Start Bootstrap
 category: dev
 description:
