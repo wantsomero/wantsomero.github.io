@@ -1,4 +1,4 @@
-url: https://y7kim.github.io
+url: https://wantsome.github.io
 baseurl: ""
 
 # Site settings
@@ -11,49 +11,53 @@ description: "The friendly IT academy"
 people:
 - name: Iuliana Anton
   pic: iuliana
-  position: Founder
+  position: Founder & Trainer
   social:
     - title: linkedin
-      url: http://linkedin.com/in/iulianaanton
+      url: https://linkedin.com/in/iulianaanton
     - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+      url: https://www.facebook.com/anton.iuliana.gabriela
 
 - name: Enciu Stoica
   pic: enciu
   position: Founder & Trainer
   social:
     - title: linkedin
-      url: http://linkedin.com/in/iulianaanton
+      url: https://linkedin.com/in/enciustoica
     - title: facebook
-      url: #
+      url: https://www.facebook.com/enciu
     - title: twitter
-      url: #
+      url: https://twitter.com/encius
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
+- name: Ion Macari
+  pic: ion
+  position:  Trainer
   social:
-    - title: twitter
-      url: #
+    - title: linkedin
+      url: https://linkedin.com/in/ionmacari
     - title: facebook
       url: #
-    - title: google-plus
+    - title: twitter
       url: #
 
+- name: Vali Popa
+  pic: vali
+  position: Trainer
+  social:
+    - title: linkedin
+      url: https://linkedin.com/in/vapopa
+    - title: facebook
+      url: #
+    - title: twitter
+      url: #
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/wantsome
   - title: facebook
-    url:
-  - title: stack-overflow
-    url:
-  - title: bitbucket
-    url:
+    url: https://facebook.com/wantsome
   - title: github
-    url:
+    url: https://github.com/wantsomero/
 
 # Postal address (add as many lines as necessary)
 address:

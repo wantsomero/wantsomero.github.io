@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/header-bg-progressive.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -364,6 +364,7 @@ section h3.section-subheading {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    text-align: center;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
