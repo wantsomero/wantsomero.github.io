@@ -226,6 +226,9 @@ fieldset[disabled] .btn-xl.active {
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
+    line-height: 80px;
+    height: 80px;
+    padding-top: 0;
 }
 
 .navbar-default .nav li a:hover,
