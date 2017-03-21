@@ -11,7 +11,7 @@ description: "The friendly IT academy"
 people:
 - name: Iuliana Anton
   pic: iuliana
-  position: Founder & Trainer
+  position: Co-Founder & Trainer
   social:
     - title: linkedin
       url: https://linkedin.com/in/iulianaanton
@@ -20,7 +20,7 @@ people:
 
 - name: Enciu Stoica
   pic: enciu
-  position: Founder & Trainer
+  position: Co-Founder & Trainer
   social:
     - title: linkedin
       url: https://linkedin.com/in/enciustoica
