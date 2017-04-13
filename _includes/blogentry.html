@@ -1,0 +1,14 @@
+<h1 class="entry-title">
+{% for post in site.posts offset: 0 limit: 10 %}
+ {% if post.category == "blog" %}
+    <h2>
+        <a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    <h4><date>{{ post.date | date: "%B %-d, %Y" }}</date></h4>
+    {{ post.excerpt }}
+    <hr />
+	 {% endif %}
+{% endfor %}
+</h1>
+<div class="entry-content">{{ content }}</div>
+
