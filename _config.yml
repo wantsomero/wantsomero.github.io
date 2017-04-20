@@ -6,6 +6,9 @@ title: WantSome
 email: getsome@wantsome.ro
 description: "The friendly IT academy"
 
+# Blog pagination
+paginate: 2
+paginate_path: "/blog/page:num/"
 
 # Team names, titles and social links
 people:
@@ -79,3 +82,5 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+gems: [jekyll-paginate]
