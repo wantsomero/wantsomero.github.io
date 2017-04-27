@@ -1,9 +1,9 @@
-url: https://wantsome.github.io
+url: http://www.wantsome.ro
 baseurl: ""
 
 # Site settings
 title: WantSome
-email: getsome@wantsome.ro
+email: contact@wantsome.ro
 description: "The friendly IT academy"
 
 
@@ -79,3 +79,5 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+gems:
+  - jekyll-sitemap
