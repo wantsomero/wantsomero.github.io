@@ -1,6 +1,6 @@
  <!-- Portfolio Modals -->
  {% for post in site.posts %}
-    <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="curs-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -21,20 +21,242 @@
                             </span>
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
-                                <li>Programa:
-                                    <strong><a href="{{ site.baseurl }}/files/{{ post.file }}" target="_blank">{{ post.title }}</a>
-                                    </strong>
-                                </li>
-                                <li>Data începere:
-                                    <strong>{{ post.project-date }}
-                                    </strong>
-                                </li>
-                                <!-- <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
-                                    </strong>
-                                </li> -->
+								<li class="page-scroll btn btn-xl">Data începere: {{ post.project-date }}</a>
+								<li><a class="page-scroll btn btn-xl" href="{{ site.baseurl }}/files/{{ post.file }}">Descarcă programa</a></li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+							
+{% if post.modal-id == 'testare-automata' %}
+<div class="programa">
+
+	<div class="list">
+	<div class="left-column">
+		<h4 class="service-heading">1. Automation intro, concepts</h4>
+		<ul class="list-group">
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>What is test automation</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>What type of testing best suits your need</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>When you need test automation</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Automation makes things easy</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Test automation process</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Tools overview</li>
+		</ul>
+	</div>
+		
+	<div class="right-column">
+		<h4 class="service-heading">2. Web testing, native testing, mobile testing</h4>
+		<ul class="list-group">
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Mobile vs web-based application testing</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Native vs hybrid applications</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Testing types&approach</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Web service introduction</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Real devices vs emulators</li>
+		</ul>
+	</div>
+	</div>
+	
+	<div class="list">
+	<div class="left-column">
+		<h4 class="service-heading">3. Java & Junit</h4>
+		<ul class="list-group">
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>OOP concepts & Basics of Java</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Development tools</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Environment setup</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>JUnit Test Framework</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Hamcrest assertions</li>
+		</ul>
+	</div>
+		
+	<div class="right-column">
+		<h4 class="service-heading">4. Backend & API testing</h4>
+		<ul class="list-group">
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>UI vs Backend</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Backend testing approach</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>API testing approach</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>REST vs SOAP</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Database testing</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Test tools</li>
+		</ul>
+	</div>
+	</div>
+	
+	<div class="list">
+	<div class="left-column">
+		<h4 class="service-heading">5. RestAssured DSL library example</h4>
+		<ul class="list-group">
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Domain specific language</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>RESTful services</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>RestAssured introduction</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Json vs XML</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Request & response analysis</li>
+		</ul>
+	</div>
+		
+	<div class="right-column">
+		<h4 class="service-heading">6. Selenium introduction</h4>
+		<ul class="list-group">
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Selenium IDE</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Selenium components</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>WebDriver overview</li>
+		</ul>
+	</div>
+	</div>
+	
+	<div class="list">
+	<div class="left-column">
+		<h4 class="service-heading">7. Selenium - Navigation</h4>
+		<ul class="list-group">
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Navigation commands</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Practical examples</li>
+		</ul>
+	</div>
+		
+	<div class="right-column">
+		<h4 class="service-heading">8. Selenium - Interrogation</h4>
+		<ul class="list-group">
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Interrogation commands</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Practical examples</li>
+		</ul>
+	</div>
+	</div>
+	
+	<div class="list">
+	<div class="left-column">
+		<h4 class="service-heading">9. Locators: ID, CSS, Xpath</h4>
+		<ul class="list-group">
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Locators overview</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Single vs multiple elements</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Practical examples</li>
+		</ul>
+	</div>
+		
+	<div class="right-column">
+		<h4 class="service-heading">10. Selenium - Manipulation</h4>
+		<ul class="list-group">
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Manipulation commands</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Practical examples</li>
+		</ul>
+	</div>
+	</div>
+	
+	<div class="list">
+	<div class="left-column">
+		<h4 class="service-heading">11. Selenium - User interaction</h4>
+		<ul class="list-group">
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Keyboard interactions</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Mouse interactions</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Practical examples</li>
+		</ul>
+	</div>
+		
+	<div class="right-column">
+		<h4 class="service-heading">12. Advanced Selenium 1</h4>
+		<ul class="list-group">
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Alerts</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Frames</li>
+		</ul>
+	</div>
+	</div>
+	
+	<div class="list">
+	<div class="left-column">
+		<h4 class="service-heading">13. Advanced Selenium 2</h4>
+		<ul class="list-group">
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Cookies</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Javascript</li>
+		</ul>
+	</div>
+		
+	<div class="right-column">
+		<h4 class="service-heading">14. Test Automation patterns 1: Page Objects</h4>
+		<ul class="list-group">
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Page object modelling</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>PageFactory</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Advantages</li>
+		</ul>
+	</div>
+	</div>
+	
+	<div class="list">
+	<div class="left-column">
+		<h4 class="service-heading">15. Test Automation patterns 2: Keyword Driven</h4>
+		<ul class="list-group">
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Keyword Driven Framework overview</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Keyword Driven Framework approach</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Why use it</li>
+		</ul>
+	</div>
+		
+	<div class="right-column">
+		<h4 class="service-heading">16. Test Automation patterns 3: Data driven</h4>
+		<ul class="list-group">
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Data Driven Framework overview</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Data Driven Framework approach</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Why use it</li>
+		</ul>
+	</div>
+	</div>
+	
+	<div class="list">
+	<div class="left-column">
+		<h4 class="service-heading">17. Test Automation patterns 4: Hybrid</h4>
+		<ul class="list-group">
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Hybrid Driven Framework overview</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Hybrid Driven Framework approach</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Why use it</li>
+		</ul>
+	</div>
+		
+	<div class="right-column">
+		<h4 class="service-heading">18. Serenity reporting</h4>
+		<ul class="list-group">
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Serenity overview</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Test report features</li>
+		</ul>
+	</div>
+	</div>
+	
+	<div class="list">
+	<div class="left-column">
+		<h4 class="service-heading">19. Recapitularea intregului proces si aplicarea tuturor cunostintelor asimilate</h4>
+		<ul class="list-group">
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Process overview</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Automation test project planning</li>
+		</ul>
+	</div>
+		
+	<div class="right-column">
+		<h4 class="service-heading">20. Simularea unui proiect cap - coada</h4>
+		<ul class="list-group">
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Test project developed from scratch</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Make use of learned tools and concepts</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Project architecture tips & tricks</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>HTML report & screenshots</li>
+		</ul>
+	</div>
+	</div>
+	
+	<div class="list">
+	<div class="left-column">
+		<h4 class="service-heading">21. Simularea interviurilor si soft skills</h4>
+		<ul class="list-group">
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Why soft skills matter</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Technical knowledge coverage</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>What kind of interview questions should you expect</li>
+			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Interview simulation</li>
+		</ul>
+	</div>
+		
+	<div class="right-column">
+		<h4 class="service-heading"></h4>
+		<ul class="list-group">
+			
+		</ul>
+	</div>
+	</div>
+
+</div>
+{% endif %}
+							
+         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>

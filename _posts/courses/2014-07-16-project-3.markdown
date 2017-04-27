@@ -2,7 +2,7 @@
 title: DevOps
 subtitle:
 layout: default
-modal-id: 3
+modal-id: devops
 date: 2014-07-16
 img: fa-codepen
 thumbnail: fa-codepen
