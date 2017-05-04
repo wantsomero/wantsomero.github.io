@@ -81,6 +81,6 @@ address:
 
 # Build settings
 markdown: kramdown
-permalink: /:title.html
+permalink: pretty
 gems:
   - jekyll-sitemap
