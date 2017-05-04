@@ -1,0 +1,18 @@
+<section  id="blog">
+    <div class="container">
+        <div class="row">
+            <div>
+                <div class="blog-index">  
+					{% for post in site.posts offset: 0 limit: 10 %}
+						{% if post.category == "blog" %}
+						<h2><a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a></h2>
+						<h4><date>{{ post.date | date: "%B %-d, %Y" }}</date></h4>
+							{{ post.excerpt }}
+						{% endif %}
+					{% endfor %}
+					<div class="entry-content">{{ content }}</div>
+				</div>
+            </div>
+        </div>
+    </div>
+</section>

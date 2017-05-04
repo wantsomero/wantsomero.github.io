@@ -6,6 +6,9 @@ title: Wantsome Iasi - The Friendly IT Academy - cursuri de testare manuala si t
 email: contact@wantsome.ro
 description: "The Friendly IT Academy - cursuri de testare manuala si testare automata"
 
+# Blog pagination
+paginate: 2
+paginate_path: "/blog/page:num/"
 
 # Team names, titles and social links
 people:

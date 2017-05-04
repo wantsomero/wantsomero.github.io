@@ -1,0 +1,13 @@
+<section  id="blog">	
+	<div class="container">	
+		<div class="row">
+			<div class="blog-index">
+				<div class="intro-text" style="text-align:justify;">         			
+					<h2><a href="{{ site.prefix }}{{ page.url }}">{{ page.title }}</a></h2>
+					<h4><strong>{{ site.author }}</strong><date>{{ page.date | date: "%B %-d, %Y" }}</date></h4>	
+				</div>
+				<div class="entry-content">{{ content }}</div>
+			</div>
+		</div>
+	</div>
+</section>

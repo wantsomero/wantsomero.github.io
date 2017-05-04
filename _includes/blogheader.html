@@ -1,5 +1,5 @@
 <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" style="background-color:#222; !important">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logos/wantsome.png" class="img-responsive img-centered" alt=""/></a>
+                <a class="navbar-brand page-scroll" href="/"><img src="{{ "/img/logos/wantsome.png" | prepend: site.baseurl }}" class="img-responsive img-centered" alt=""/></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,22 +19,22 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">Wantsome Iasi</a>
+                        <a class="page-scroll" href="/#about">Despre noi</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Cursuri</a>
+                        <a class="page-scroll" href="/#portfolio">Cursuri</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#companies">Servicii</a>
+                        <a class="page-scroll" href="/#companies">Servicii</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Echipa</a>
+                        <a class="page-scroll" href="/#team">Echipa</a>
                     </li>
 					<li>
                         <a class="page-scroll" href="/blog">Blog</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="/#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -44,15 +44,7 @@
     </nav>
 
     <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">The friendly IT academy</div>
-                <div class="intro-heading">Developed in Iași</div>
-                <a href="https://goo.gl/forms/JW7L2m5jbUBfXJAy2" class="page-scroll btn btn-xl">Înscrie-te acum</a>
-            </div>
-        </div>
-    </header>
+ 
 <!--
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
