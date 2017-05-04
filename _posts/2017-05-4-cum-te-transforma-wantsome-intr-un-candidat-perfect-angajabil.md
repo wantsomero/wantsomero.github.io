@@ -14,7 +14,7 @@ Mai exact, îți vom povesti cum, în cele <strong>96 de ore de cursuri Wantsome
 <h3>Mai întâi, apare dorința</h3>
 Cu alte cuvinte, primul pas trebuie făcut de tine, căci noi nu putem face minuni cu o persoană care nu-și dorește cu adevărat să le trăiască și să muncească pentru ele.
 
-Așadar, pentru a ne arăta cât de mult îți dorești o schimbare în viața ta, te invităm <a href="http://wantsome.ro/#contact">să te înscrii la Wantsome</a>, academia prietenoasă de IT. După înscriere, te vom contacta pentru interviu pentru că vrem să vedem ce fel de persoană ești, ce vise ai pentru tine, cât de mult îți dorești să le îndeplinești și cât de dispus ești să lucrezi cu tine însuți.
+Așadar, pentru a ne arăta cât de mult îți dorești o schimbare în viața ta, te invităm <a href="https://goo.gl/forms/JW7L2m5jbUBfXJAy2">să te înscrii la Wantsome</a>, academia prietenoasă de IT. După înscriere, te vom contacta pentru interviu pentru că vrem să vedem ce fel de persoană ești, ce vise ai pentru tine, cât de mult îți dorești să le îndeplinești și cât de dispus ești să lucrezi cu tine însuți.
 
 <h3>Apoi, se face transferul de cunoștințe</h3>
 Spre deosebire de trainerii obișnuiți, <a href="http://wantsome.ro/#team"><strong>trainerii Wantsome</strong></a> au super-puteri. Ei sunt dornici să te învețe cât mai multe lucruri practice în domeniul testării manuale și automate. Satisfacția lor nu vine doar din dorința de a dărui altora din cunoștințele lor, ci mai ales din sclipirea din ochii cursanților, atunci când au mai învățat un nou tool, când au mai deprins o nouă abilitate.
@@ -33,4 +33,4 @@ La finalul cursurilor, vei primit de la noi și câteva opțiuni de companii în
 
 Considerăm că munca noastră este finalizată cu succes doar în momentul în care tu reușești să te angajezi. Dorim să strângem cât mai multe povești despre cum „se poate” și de aceea suntem alături de tine pe tot acest drum.
 
-Wantsome este singura academie prietenoasă de IT din Iași iar noi abia așteptăm să te cunoaștem și să mergem alături de tine pe strada către schimbare. <strong>Înscrierile se fac până pe 15 mai, so <a href="http://wantsome.ro/#contact">hurry up!</a></strong>
+Wantsome este singura academie prietenoasă de IT din Iași iar noi abia așteptăm să te cunoaștem și să mergem alături de tine pe strada către schimbare. <strong>Înscrierile se fac până pe 15 mai, so <a href="https://goo.gl/forms/JW7L2m5jbUBfXJAy2">hurry up!</a></strong>
