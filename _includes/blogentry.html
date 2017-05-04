@@ -1,13 +1,30 @@
-<section  id="blog">	
-	<div class="container">	
+<section id="blog">
+	<div class="container">
 		<div class="row">
 			<div class="blog-index">
-				<div class="intro-text" style="text-align:justify;">         			
+				<div class="intro-text" style="text-align:justify;">
 					<h2><a href="{{ site.prefix }}{{ page.url }}">{{ page.title }}</a></h2>
-					<h4><strong>{{ site.author }}</strong><date>{{ page.date | date: "%B %-d, %Y" }}</date></h4>	
+					<h4><strong>{{ site.author }}</strong><date>{{ page.date | date: "%B %-d, %Y" }}</date></h4>
 				</div>
 				<div class="entry-content">{{ content }}</div>
 			</div>
+		</div>
+		<div class="share-page">
+			Share this on
+			<ul class="share-buttons">
+				<li>
+					<a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><img alt="Share on Facebook" src="img/social_flat_rounded_rects_svg/Facebook.svg"></a>
+				</li>
+				<li>
+					<a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img alt="Tweet" src="img/social_flat_rounded_rects_svg/Twitter.svg"></a>
+				</li>
+				<li>
+					<a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" target="_blank" title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=' + encodeURIComponent(document.URL)); return false;"><img alt="Share on Google+" src="img/social_flat_rounded_rects_svg/Google+.svg"></a>
+				</li>
+				<li>
+					<a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary=" target="_blank" title="Share on LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><img alt="Share on LinkedIn" src="img/social_flat_rounded_rects_svg/LinkedIn.svg"></a>
+				</li>
+			</ul>
 		</div>
 	</div>
 </section>

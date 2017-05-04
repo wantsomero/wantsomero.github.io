@@ -345,7 +345,7 @@ section#blog {
 
 section#blog > div.container {
 	overflow:auto;
-	padding-bottom: 150px;
+	/*padding-bottom: 150px;*/
 }
 
 section h2.section-heading {
