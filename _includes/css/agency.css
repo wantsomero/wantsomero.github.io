@@ -10,6 +10,10 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
+html, body {
+        height: 100%;
+}
+
 .text-muted {
     #{{ site.data.template.color.muted }};
 }
@@ -332,7 +336,16 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0 0 0;
+    padding: 100px 0 0 0;	
+}
+
+section#blog {
+	min-height: 100%;
+}
+
+section#blog > div.container {
+	overflow:auto;
+	padding-bottom: 150px;
 }
 
 section h2.section-heading {
@@ -733,8 +746,11 @@ footer {
     padding: 25px 0;
     text-align: center;
 	bottom: 0;
-    position: relative;
     width: 100%;
+	position: relative;
+	margin-top: -150px; /* negative value of footer height */
+	height: 150px;
+	clear:both;
 }
 
 footer span.copyright {
