@@ -1,12 +1,14 @@
 ---
 title: Apariţii media - Wantsome în Ziarul de Iaşi
+date: 2017-04-26 00:00:00 Z
+categories:
+- blog
 layout: post
 modal-id: 6
-date: 2017-04-26
-category: blog
 description: 
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
+
 Wantsome, academia prietenoasă de IT pentru reorientare profesională sau avansare în carieră, lansează primul program: cursuri de testare automată şi testare manuală care se bazează pe experienţa practică.
 
 Răspunzând unei pieţe locale de IT în care cererea de testeri este masivă, <strong>Iuliana Anton</strong> şi <strong>Enciu Stoica</strong>, <strong>fondatorii Wantsome</strong>, aşteaptă ieşenii şi ieşencele cu spirit analitic să facă o schimbare completă sau un pas în faţă în carieră, prin participarea la cele 2 module de cursuri proaspăt configurate de software testing, începând cu luna mai, 2017.
