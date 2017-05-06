@@ -1,89 +1,94 @@
----
-title: Wantsome Iasi - The Friendly IT Academy - cursuri de testare manuala si testare
-  automata
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
 url: http://www.wantsome.ro
-baseurl: ''
+baseurl: ""
+
+# Site settings
+title: Wantsome Iasi - The Friendly IT Academy - cursuri de testare manuala si testare automata
 email: contact@wantsome.ro
-description: The Friendly IT Academy - cursuri de testare manuala si testare automata
+description: "The Friendly IT Academy - cursuri de testare manuala si testare automata"
+
+# Team names, titles and social links
 people:
 - name: Iuliana Anton
   pic: iuliana
   position: Co-Founder & Trainer
   social:
-  - title: linkedin
-    url: https://linkedin.com/in/iulianaanton
-  - title: facebook
-    url: https://www.facebook.com/anton.iuliana.gabriela
+    - title: linkedin
+      url: https://linkedin.com/in/iulianaanton
+    - title: facebook
+      url: https://www.facebook.com/anton.iuliana.gabriela
+
 - name: Enciu Stoica
   pic: enciu
   position: Co-Founder & Trainer
   social:
-  - title: linkedin
-    url: https://linkedin.com/in/enciustoica
-  - title: facebook
-    url: https://www.facebook.com/enciu
-  - title: twitter
-    url: https://twitter.com/encius
+    - title: linkedin
+      url: https://linkedin.com/in/enciustoica
+    - title: facebook
+      url: https://www.facebook.com/enciu
+    - title: twitter
+      url: https://twitter.com/encius
+
 - name: Ion Macari
   pic: ion
-  position: Trainer
+  position:  Trainer
   social:
-  - title: linkedin
-    url: https://linkedin.com/in/ionmacari
-  - title: facebook
-    url: 
-  - title: twitter
-    url: 
+    - title: linkedin
+      url: https://linkedin.com/in/ionmacari
+    - title: facebook
+      url: #
+    - title: twitter
+      url: #
+
 - name: Vali Popa
   pic: vali
   position: Trainer
   social:
-  - title: linkedin
-    url: https://linkedin.com/in/vapopa
-  - title: facebook
-    url: https://www.facebook.com/valipoparo
-  - title: twitter
-    url: https://twitter.com/valime
+    - title: linkedin
+      url: https://linkedin.com/in/vapopa
+    - title: facebook
+      url: https://www.facebook.com/valipoparo
+    - title: twitter
+      url: https://twitter.com/valime
+
 - name: Liviu Costea
   pic: liviu
   position: Trainer
   social:
-  - title: linkedin
-    url: https://linkedin.com/in/liviucostea
-  - title: facebook
-    url: 
-  - title: twitter
-    url: 
+    - title: linkedin
+      url: https://linkedin.com/in/liviucostea
+    - title: facebook
+      url: #
+    - title: twitter
+      url: #
+
 - name: Diana Sofian
   pic: diana
   position: Career Advisor
   social:
-  - title: linkedin
-    url: https://linkedin.com/in/diana-sofian-b4253989
-  - title: facebook
-    url: 
-  - title: twitter
-    url: 
+    - title: linkedin
+      url: https://linkedin.com/in/diana-sofian-b4253989
+    - title: facebook
+      url: #
+    - title: twitter
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-- title: twitter
-  url: https://twitter.com/wantsomero
-- title: facebook
-  url: https://facebook.com/wantsomeiasi
-- title: github
-  url: https://github.com/wantsomero/
+  - title: twitter
+    url: https://twitter.com/wantsomero
+  - title: facebook
+    url: https://facebook.com/wantsomeiasi
+  - title: github
+    url: https://github.com/wantsomero/
+
 twitter_username: wantsomero
+# Postal address (add as many lines as necessary)
 address:
-- line: Str. Voievozilor nr. 555
-- line: Iasi, Romania
+  - line: Str. Voievozilor nr. 555
+  - line: Iasi, Romania
+
+# Build settings
 markdown: kramdown
-permalink: "/:title.html"
+permalink: /:title.html
 gems:
-- jekyll-sitemap
+  - jekyll-sitemap
