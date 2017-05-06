@@ -1,17 +1,16 @@
 ---
 title: Testare Manuală
-date: 2014-07-18 00:00:00 Z
-categories:
-- dev
-subtitle: 
+subtitle:
 layout: default
 modal-id: testare-manuala
+date: 2014-07-18
 img: fa-bug
 thumbnail: fa-bug
 alt: image-alt
 project-date: Mai 2017
-client: 
+client:
+category: dev
 description: Curs testare manuală
 file: wantsome_the_friendly_it_academy_programa_testare_manuala.pdf
----
 
+---
