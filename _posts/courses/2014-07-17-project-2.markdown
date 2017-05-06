@@ -1,17 +1,15 @@
 ---
 title: Testare Automată
-date: 2014-07-17 00:00:00 Z
-categories:
-- dev
-subtitle: 
+subtitle:
 layout: default
 modal-id: testare-automata
+date: 2014-07-17
 img: fa-laptop
 thumbnail: fa-laptop
 alt: image-alt
 project-date: Mai 2017
-client: 
-description: 
+client:
+category: dev
+description:
 file: wantsome_the_friendly_it_academy_programa_testare_automata.pdf
 ---
-

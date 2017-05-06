@@ -1,14 +1,12 @@
 ---
 title: Cum te transformă Wantsome într-un candidat perfect angajabil
-date: 2017-05-04 00:00:00 Z
-categories:
-- blog
 layout: post
 modal-id: 6
+date: 2017-05-4
+category: blog
 description: 
-excerpt_separator: "<!--more-->"
+excerpt_separator: <!--more-->
 ---
-
 Se spune că pentru a reuși într-un anumit domeniu (sau chiar în întreaga viață, îndrăznesc unii să afirme), este nevoie de cunoștințe temeinice, dar și de un dram de noroc. Pentru că norocul acesta este relativ și ți se poate întâmpla sau nu, noi te vom învăța astăzi cum să ți-l faci cu mâna ta.
 
 Mai exact, îți vom povesti cum, în cele <strong>96 de ore de cursuri Wantsome</strong>, te vom lua de mânuță și te vom trece prin toate etapele necesare transformării tale într-un candidat perfect angajabil; și nu-ți vom da drumul decât atunci când te vom vedea angajat.
