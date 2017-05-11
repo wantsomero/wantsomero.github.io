@@ -985,3 +985,12 @@ ul.share-buttons img{
 .workshop h4 {
 	color: #fed136;
 }
+
+.page > .container {
+    min-height: 100%;
+	overflow: auto;
+	margin-bottom:150px;
+}
+.page {
+    padding: 150px 0 0;
+}
