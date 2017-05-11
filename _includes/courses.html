@@ -10,8 +10,14 @@
         <div class="row">
             {% for course in site.categories.dev %}
             <div class="col-md-4 col-sm-6 portfolio-item centered">
-                <a href="#curs-{{ course.modal-id }}" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio-hover">
+			
+			{% if course.modal-id == 'testare-automata' %}
+                <a href="{{ site.baseurl }}/curs-testare-automata-iasi" class="portfolio-link" data-toggle="modal">
+			{% else %}
+			<a href="#curs-{{ course.modal-id }}" class="portfolio-link" data-toggle="modal">
+            {% endif %}
+			
+			<div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
@@ -21,13 +27,18 @@
                             <i class="fa {{ course.thumbnail }} fa-stack-1x fa-inverse"></i>
                         </span></a>
                 <!-- <img src="img/portfolio/{{ course.thumbnail }}" class="img-responsive img-centered" alt=""> -->
-                <a href="#curs-{{ course.modal-id }}" class="portfolio-link" data-toggle="modal">
+                
+				{% if course.modal-id == 'testare-automata' %}
+				<a href="{{ site.baseurl }}/curs-testare-automata-iasi" class="portfolio-link" data-toggle="modal">
+				{% else %} 
+				<a href="#curs-{{ course.modal-id }}" class="portfolio-link" data-toggle="modal">
+				{% endif %}
+				
                     <div class="portfolio-caption">
                         <h4>{{ course.title }}</h4>
                         <p class="text-muted">{{ course.subtitle }}</p>
                     </div>
                 </a>
-
             </div>
             {% endfor %}
         </div>

@@ -341,6 +341,7 @@ section {
 
 section#blog {
 	min-height: 100%;
+	margin-bottom: 100px;
 }
 
 section#blog > div.container {
@@ -993,4 +994,20 @@ ul.share-buttons img{
 }
 .page {
     padding: 150px 0 0;
+}
+
+.course-details {
+	text-align: center;
+}
+
+.download {
+	color:#fff;
+}
+
+.course-details li {
+    margin-right: 5px;
+}
+
+.programa > .list {
+    right: 45%;
 }
