@@ -7,7 +7,7 @@ date: 2014-07-18
 img: fa-bug
 thumbnail: fa-bug
 alt: image-alt
-project-date: Mai 2017
+project-date: Iunie 2017
 client:
 category: dev
 description: Curs testare manuală
