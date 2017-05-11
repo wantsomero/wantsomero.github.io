@@ -1004,6 +1004,10 @@ ul.share-buttons img{
 	color:#fff;
 }
 
+.download:hover {
+    color: #fff;
+}
+
 .course-details li {
     margin-right: 5px;
 }
