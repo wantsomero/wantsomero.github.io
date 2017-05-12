@@ -11,11 +11,7 @@
             {% for course in site.categories.dev %}
             <div class="col-md-4 col-sm-6 portfolio-item centered">
 
-			{% if course.modal-id == 'testare-automata' %}
-                <a href="{{ site.baseurl }}/curs-testare-automata-iasi" class="portfolio-link" data-toggle="modal">
-			{% else %}
-			<a href="#curs-{{ course.modal-id }}" class="portfolio-link" data-toggle="modal">
-            {% endif %}
+              <a href="{{ site.baseurl }}/{{ course.modal-id }}" class="portfolio-link" data-toggle="modal">
 
 			<div class="portfolio-hover">
                         <div class="portfolio-hover-content">
