@@ -2,12 +2,12 @@
 title: DevOps
 subtitle:
 layout: default
-modal-id: devops
+modal-id: curs-devops-iasi
 date: 2014-07-16
 img: fa-codepen
 thumbnail: fa-codepen
 alt: image-alt
-project-date: Aprilie 2017
+project-date: Toamnă 2017
 client: Start Bootstrap
 category: dev
 description:

@@ -1,215 +1,227 @@
-{% for post in site.posts %}
-{% if post.modal-id == 'testare-manuala' %}
-<div class="page"> 
-<div class="container">
-<div class="programa">
+<div class="page">
+	<div class="container">
+		<div class="course-details">
+			<h2>Testare Manuală</h2>
+			<hr class="star-primary">
+			<span class="fa-stack fa-4x">
+		<i class="fa fa-circle fa-stack-2x text-primary"></i>
+		<i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+	</span>
+			<p>{{ post.description }}</p>
+			<ul class="list-inline item-details">
+				<li class="page-scroll btn btn-xl">Data începere: Iunie 2017</a>
+					<li class="page-scroll btn btn-xl">Durată: 16 săptămâni</a>
+						<li class="page-scroll btn btn-xl">Taxă participare: 600 euro</a>
+							<li class="page-scroll btn btn-xl"><a class="download" href="{{ site.baseurl }}/files/wantsome_the_friendly_it_academy_programa_testare_manuala.pdf">Descarcă programa</a></li>
+			</ul>
+		</div>
+		<div class="programa">
 
-	<div class="list">
-	<div class="left-column">
-		<h4 class="service-heading">1. Introducere in Software testing și modul de lucru al companiilor</h4>
-		<ul class="list-group">
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Modul de organizare a echipelor intr-o corporatie</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Scopul unui tester in procesul de dezvoltare</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Principiile si termenii de baza in testare</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Costurile pentru corectarea defectelor</li>
-		</ul>
-		<div class="workshop">
-			<h4>Workshop</h4>
-            <p>Testare exploratorie pe o aplicatie predefinita pentru a intelege Scopul unui tester, principiile de testare si pentrufamiliarizarea cu termenii de baza.</p>
-        </div>
+			<div class="list">
+				<div class="left-column">
+					<h4 class="service-heading">1. Introducere in Software testing și modul de lucru al companiilor</h4>
+					<ul class="list-group">
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Modul de organizare a echipelor intr-o corporatie</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Scopul unui tester in procesul de dezvoltare</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Principiile si termenii de baza in testare</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Costurile pentru corectarea defectelor</li>
+					</ul>
+					<div class="workshop">
+						<h4>Workshop</h4>
+						<p>Testare exploratorie pe o aplicatie predefinita pentru a intelege Scopul unui tester, principiile de testare si pentrufamiliarizarea cu termenii de baza.</p>
+					</div>
+				</div>
+
+				<div class="right-column">
+					<h4 class="service-heading">2. Testarea exploratorie si raportarea defectelor</h4>
+					<ul class="list-group">
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Familiarizarea cu bug tracking</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Raportarea defectelor - tehnici uzuale</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Urmarirea defectelor</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Clasificarea defectelor - Prioritate si severitate</li>
+					</ul>
+					<div class="workshop">
+						<h4>Workshop</h4>
+						<p>Exploratory si adaugarea defectelor in bug tracking.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="list">
+				<div class="left-column">
+					<h4 class="service-heading">3. DevOps si tools</h4>
+					<ul class="list-group">
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Git – comenzile de baza</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>FTP</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Jing pentru screenshots</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Notepad++ pentru compararea a 2 stringuri</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Excel pentru calcule si formule</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>regexhero.net si Notepad++ pentru cautari cu expresii regulate</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Firebug (HTML + CSS)</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Fiddle</li>
+					</ul>
+				</div>
+
+				<div class="right-column">
+					<h4 class="service-heading">4. Modele de testare</h4>
+					<ul class="list-group">
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Ciclul de testare (STLC - Software testing life cycle)</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Cliclul de dezvoltare (SDLC - Software development life cycle)</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>V-Model</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Waterfall Model</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Iterativ Model (Agile)</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Avantajele si dezavantajele modelelor</li>
+					</ul>
+					<div class="workshop">
+						<h4>Workshop</h4>
+						<p>Exploratory testing, simularea unui sprint meeting.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="list">
+				<div class="left-column">
+					<h4 class="service-heading">5. Tipurile de testare</h4>
+					<ul class="list-group">
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Functional testing vs Non-Functional testing</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Exploratory testing</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Black box testing: Equivalent partition, Boundary validation, Decision Table</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Gray-box testing</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Smoke testing</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Regression testing</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Alte tipuri de testare: Alpha testing, Beta testing, Compatibility testing</li>
+					</ul>
+					<div class="workshop">
+						<h4>Workshop</h4>
+						<p>Aplicarea tipurilor de testare</p>
+					</div>
+				</div>
+
+				<div class="right-column">
+					<h4 class="service-heading">6. Nivele de testare</h4>
+					<ul class="list-group">
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Component testing</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Integration testing</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>System testing</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Acceptance testing</li>
+					</ul>
+					<div class="workshop">
+						<h4>Workshop</h4>
+						<p>Aplicarea nivelelor de testare</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="list">
+				<div class="left-column">
+					<h4 class="service-heading">7. Analiza specificatiilor si pregatirea mediului</h4>
+					<ul class="list-group">
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Analiza specificatiilor</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Pregatirea mediul de testare</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Pregatirea preconditiei</li>
+					</ul>
+					<div class="workshop">
+						<h4>Workshop</h4>
+						<p>Pregatirea mediul de testare si a preconditiei</p>
+					</div>
+				</div>
+
+				<div class="right-column">
+					<h4 class="service-heading">8. Documentarea testarii</h4>
+					<ul class="list-group">
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Crearea unui test plan</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Crearea test case-urilor</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Tipurile de test case, pozitive si negative.</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Modele de test plan</li>
+					</ul>
+					<div class="workshop">
+						<h4>Workshop</h4>
+						<p>Crearea documentatiei pentru testare</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="list">
+				<div class="left-column">
+					<h4 class="service-heading">9. Executarea test planului</h4>
+					<ul class="list-group">
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Rularea test planului si a test case-urilor</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Logarea defectelor</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Validarea defectelor</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Regression testing</li>
+					</ul>
+					<div class="workshop">
+						<h4>Workshop</h4>
+						<p>Executarea test planului creat anterior</p>
+					</div>
+				</div>
+
+				<div class="right-column">
+					<h4 class="service-heading">10. Managementul defectelor</h4>
+					<ul class="list-group">
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Raportarea defectelor gasite dupa executarea test planului</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Prioritizarea defectelor</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Urmarirea defectelor</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Urgentarea defectelor cu prioritate mare</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Validarea defectelor</li>
+					</ul>
+					<div class="workshop">
+						<h4>Workshop</h4>
+						<p>Managementul defectelor</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="list">
+				<div class="left-column">
+					<h4 class="service-heading">11. Analiza si raportari</h4>
+					<ul class="list-group">
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Generarea rapoartelor</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Analiza riscului si impactului</li>
+					</ul>
+					<div class="workshop">
+						<h4>Workshop</h4>
+						<p>Analiza si raportari</p>
+					</div>
+				</div>
+
+				<div class="right-column">
+					<h4 class="service-heading">12. Baze de date</h4>
+					<ul class="list-group">
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Ce este o baza de date</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Creare baze de date si legaturile dintre tabele</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Selectare date</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Inserare, actualizare, stergere date </li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Join intre tabele</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Back-up/restore - pentru preconditie</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="list">
+				<div class="left-column">
+					<h4 class="service-heading">13. Testare automata</h4>
+					<ul class="list-group">
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Crearea testelor automata folosing un framework existent</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Rularea testelor automate (manual si automat)</li>
+						<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Analiza rezultatelor</li>
+					</ul>
+				</div>
+
+				<div class="right-column">
+					<h4 class="service-heading">14. Recapitularea intregului proces si aplicarea tuturor cunostintelor asimilate</h4>
+				</div>
+			</div>
+
+			<div class="list">
+				<div class="left-column">
+					<h4 class="service-heading">15. Simularea unui proiect cap - coada</h4>
+				</div>
+
+				<div class="right-column">
+					<h4 class="service-heading">16. Simularea interviurilor si soft skills</h4>
+				</div>
+			</div>
+		</div>
 	</div>
-		
-	<div class="right-column">
-		<h4 class="service-heading">2. Testarea exploratorie si raportarea defectelor</h4>
-		<ul class="list-group">
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Familiarizarea cu bug tracking</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Raportarea defectelor - tehnici uzuale</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Urmarirea defectelor</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Clasificarea defectelor - Prioritate si severitate</li>
-		</ul>
-		<div class="workshop">
-			<h4>Workshop</h4>
-            <p>Exploratory si adaugarea defectelor in bug tracking.</p>
-        </div>
-	</div>
-	</div>
-	
-	<div class="list">
-	<div class="left-column">
-		<h4 class="service-heading">3. DevOps si tools</h4>
-		<ul class="list-group">
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Git – comenzile de baza</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>FTP</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Jing pentru screenshots</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Notepad++ pentru compararea a 2 stringuri</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Excel pentru calcule si formule</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>regexhero.net si Notepad++ pentru cautari cu expresii regulate</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Firebug (HTML + CSS)</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Fiddle</li>
-		</ul>
-	</div>
-		
-	<div class="right-column">
-		<h4 class="service-heading">4. Modele de testare</h4>
-		<ul class="list-group">
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Ciclul de testare (STLC - Software testing life cycle)</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Cliclul de dezvoltare (SDLC - Software development life cycle)</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>V-Model</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Waterfall Model</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Iterativ Model (Agile)</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Avantajele si dezavantajele modelelor</li>
-		</ul>
-		<div class="workshop">
-			<h4>Workshop</h4>
-            <p>Exploratory testing, simularea unui sprint meeting.</p>
-        </div>
-	</div>
-	</div>
-	
-	<div class="list">
-	<div class="left-column">
-		<h4 class="service-heading">5. Tipurile de testare</h4>
-		<ul class="list-group">
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Functional testing vs Non-Functional testing</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Exploratory testing</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Black box testing: Equivalent partition, Boundary validation, Decision Table</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Gray-box testing</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Smoke testing</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Regression testing</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Alte tipuri de testare: Alpha testing, Beta testing, Compatibility testing</li>
-		</ul>
-		<div class="workshop">
-			<h4>Workshop</h4>
-            <p>Aplicarea tipurilor de testare</p>
-        </div>
-	</div>
-		
-	<div class="right-column">
-		<h4 class="service-heading">6. Nivele de testare</h4>
-		<ul class="list-group">
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Component testing</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Integration testing</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>System testing</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Acceptance testing</li>
-		</ul>
-		<div class="workshop">
-			<h4>Workshop</h4>
-            <p>Aplicarea nivelelor de testare</p>
-        </div>
-	</div>
-	</div>
-	
-	<div class="list">
-	<div class="left-column">
-		<h4 class="service-heading">7. Analiza specificatiilor si pregatirea mediului</h4>
-		<ul class="list-group">
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Analiza specificatiilor</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Pregatirea mediul de testare</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Pregatirea preconditiei</li>
-		</ul>
-		<div class="workshop">
-			<h4>Workshop</h4>
-            <p>Pregatirea mediul de testare si a preconditiei</p>
-        </div>
-	</div>
-		
-	<div class="right-column">
-		<h4 class="service-heading">8. Documentarea testarii</h4>
-		<ul class="list-group">
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Crearea unui test plan</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Crearea test case-urilor</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Tipurile de test case, pozitive si negative.</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Modele de test plan</li>
-		</ul>
-		<div class="workshop">
-			<h4>Workshop</h4>
-            <p>Crearea documentatiei pentru testare</p>
-        </div>
-	</div>
-	</div>
-	
-	<div class="list">
-	<div class="left-column">
-		<h4 class="service-heading">9. Executarea test planului</h4>
-		<ul class="list-group">
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Rularea test planului si a test case-urilor</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Logarea defectelor</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Validarea defectelor</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Regression testing</li>
-		</ul>
-		<div class="workshop">
-			<h4>Workshop</h4>
-            <p>Executarea test planului creat anterior</p>
-        </div>
-	</div>
-		
-	<div class="right-column">
-		<h4 class="service-heading">10. Managementul defectelor</h4>
-		<ul class="list-group">
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Raportarea defectelor gasite dupa executarea test planului</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Prioritizarea defectelor</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Urmarirea defectelor</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Urgentarea defectelor cu prioritate mare</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Validarea defectelor</li>
-		</ul>
-		<div class="workshop">
-			<h4>Workshop</h4>
-            <p>Managementul defectelor</p>
-        </div>
-	</div>
-	</div>
-	
-	<div class="list">
-	<div class="left-column">
-		<h4 class="service-heading">11. Analiza si raportari</h4>
-		<ul class="list-group">
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Generarea rapoartelor</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Analiza riscului si impactului</li>
-		</ul>
-		<div class="workshop">
-			<h4>Workshop</h4>
-            <p>Analiza si raportari</p>
-        </div>
-	</div>
-		
-	<div class="right-column">
-		<h4 class="service-heading">12. Baze de date</h4>
-		<ul class="list-group">
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Ce este o baza de date</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Creare baze de date si legaturile dintre tabele</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Selectare date</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Inserare, actualizare, stergere date	</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Join intre tabele</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Back-up/restore - pentru preconditie</li>
-		</ul>
-	</div>
-	</div>
-	
-	<div class="list">
-	<div class="left-column">
-		<h4 class="service-heading">13. Testare automata</h4>
-		<ul class="list-group">
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Crearea testelor automata folosing un framework existent</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Rularea testelor automate (manual si automat)</li>
-			<li class="list-group-item"><i aria-hidden="true" class="fa fa-arrow-circle-right"></i>Analiza rezultatelor</li>
-		</ul>
-	</div>
-		
-	<div class="right-column">
-		<h4 class="service-heading">14. Recapitularea intregului proces si aplicarea tuturor cunostintelor asimilate</h4>
-	</div>
-	</div>
-	
-	<div class="list">
-	<div class="left-column">
-		<h4 class="service-heading">15. Simularea unui proiect cap - coada</h4>
-	</div>
-		
-	<div class="right-column">
-		<h4 class="service-heading">16. Simularea interviurilor si soft skills</h4>
-	</div>
-	</div>
-	</div>
-	</div></div>
-{% endif %}
-{% endfor %}
+</div>

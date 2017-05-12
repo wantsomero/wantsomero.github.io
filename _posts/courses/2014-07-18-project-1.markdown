@@ -2,7 +2,7 @@
 title: Testare Manuală
 subtitle:
 layout: default
-modal-id: testare-manuala
+modal-id: curs-testare-manuala-iasi
 date: 2014-07-18
 img: fa-bug
 thumbnail: fa-bug
