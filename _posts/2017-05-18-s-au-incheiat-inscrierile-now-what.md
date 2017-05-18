@@ -19,7 +19,7 @@ excerpt_separator: <!--more-->
 Pe 19 mai, toți cei înscriși vor primi un e-mail drăguț de la noi cu un link către un test. Avem câte un test pentru fiecare opțiune, adică unul pentru testarea manuală și unul pentru cea automată.
 
 <ul>
-  <li><strong>Pentru testate manuală se urmărește:</strong> nivelul de limbă engleză, logica și cunoștințele de testare manuală.</li>
+  <li><strong>Pentru testare manuală se urmărește:</strong> nivelul de limbă engleză, logica și cunoștințele de testare manuală.</li>
   <li><strong>Pentru testare automată se urmărește:</strong> nivelul de limbă engleză, cunoștințele de programare și cunoștințele de testare manuală.</li>
 </ul>
 
