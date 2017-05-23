@@ -25,6 +25,6 @@ Pe 19 mai, toți cei înscriși vor primi un e-mail drăguț de la noi cu un lin
 
 <strong>Important:</strong> aveți la dispoziție două zile (până pe 21 mai) pentru a completa testul iar odată ce l-ați început, trebuie să-l terminați (răspunsurile nu se salvează, trebuie făcut totul dintr-o lovitură). Testul durează 30 de minute.
 
-Iar apoi urmează interviurile, adică o discuție prietenoasă între recruiterii de la <a href="http://itswise.ro/" target="blank"><strong>It's Wise</strong></a> și cei ce au trecut testul, discuție prin care vrem să vedem motivația fiecăruia și, mai ales, atitudinea față de experiența Wantsome și față de viitorul carierei lor.
+Iar apoi urmează interviurile, adică o discuție prietenoasă între trainerii și recruiterii de la <a href="http://itswise.ro/" target="blank"><strong>It's Wise</strong></a> și cei ce au trecut testul, discuție prin care vrem să vedem motivația fiecăruia și, mai ales, atitudinea față de experiența Wantsome și față de viitorul carierei lor.
 
 Pe 28 mai vom pune punct și interviurilor și abia atunci îi vom alege pe cei 20 care vor începe aventura vieții lor. Între 29 și 31 mai vom pune la punct toate detaliile administrative (depunerea dosarelor, plăți etc.) iar pe 1 iunie ne vedem la cursuri!

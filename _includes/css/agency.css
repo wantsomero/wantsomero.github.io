@@ -1015,3 +1015,8 @@ ul.share-buttons img{
 .programa > .list {
     right: 45%;
 }
+
+.lead {
+  font-style: italic;
+  padding: 20px;
+}
