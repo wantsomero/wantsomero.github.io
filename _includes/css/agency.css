@@ -926,10 +926,10 @@ body {
 
 .right-column  {
     float: left;
-    left: 56%;
+    left: 55%;
     overflow: hidden;
     position: relative;
-    width: 46%;
+    width: 45%;
 }
 
 .list-inline.item-details h4 {
