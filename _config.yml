@@ -72,6 +72,17 @@ people:
     - title: twitter
       url: #
 
+- name: Bogdan Rusu
+  pic: bogdan
+  position: Trainer
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/bogdan-rusu-5288a43
+    - title: facebook
+      url: #
+    - title: twitter
+      url: #
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
