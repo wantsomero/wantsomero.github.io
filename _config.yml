@@ -20,6 +20,7 @@ people:
 - name: Enciu Stoica
   pic: enciu
   position: Co-Founder & Trainer
+  courses: ['automation-testing','software-testing']
   social:
     - title: linkedin
       url: https://linkedin.com/in/enciustoica
@@ -42,6 +43,7 @@ people:
 - name: Vali Popa
   pic: vali
   position: Trainer
+  courses: ['automation-testing','software-testing']
   social:
     - title: linkedin
       url: https://linkedin.com/in/vapopa
@@ -75,6 +77,7 @@ people:
 - name: Bogdan Rusu
   pic: bogdan
   position: Trainer
+  courses: ['software-testing']
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/bogdan-rusu-5288a43

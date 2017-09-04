@@ -674,6 +674,14 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
+.bordered {
+  border-style: groove;
+  border-width: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  min-height: 310px;
+}
+
 aside.clients img {
     margin: 50px auto;
 }
