@@ -7,7 +7,12 @@
     <body id="page-top" class="index">
 
     {% include blogheader.html %}
-    {% include {{ page.page }}.html %}
+    <div class="page" class="bg-light-gray">
+    	<div class="container">
+        {% include {{ page.page }}.html %}
+        {% include pagedetails.html %}
+      </div>
+    </div>
     {% include blogfooter.html %}
     {% include modals.html %}
     {% include js.html %}

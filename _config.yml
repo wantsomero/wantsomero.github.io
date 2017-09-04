@@ -2,9 +2,9 @@ url: http://www.wantsome.ro
 baseurl: ""
 
 # Site settings
-title: Wantsome Iasi - The Friendly IT Academy - cursuri de testare manuala si testare automata
+title: Wantsome Iasi - The Friendly IT Academy
 email: contact@wantsome.ro
-description: "The Friendly IT Academy - cursuri de testare manuala si testare automata"
+description: "The Friendly IT Academy - cursuri de testare manuala, testare automata, dot net web development, java development, infrastracture engineer"
 
 # Team names, titles and social links
 people:
@@ -20,7 +20,7 @@ people:
 - name: Enciu Stoica
   pic: enciu
   position: Co-Founder & Trainer
-  courses: ['automation-testing','software-testing']
+  courses: ['testare-manuala','testare-automata']
   social:
     - title: linkedin
       url: https://linkedin.com/in/enciustoica
@@ -32,6 +32,7 @@ people:
 - name: Ion Macari
   pic: ion
   position:  Trainer
+  courses: ['testare-manuala']
   social:
     - title: linkedin
       url: https://linkedin.com/in/ionmacari
@@ -43,7 +44,7 @@ people:
 - name: Vali Popa
   pic: vali
   position: Trainer
-  courses: ['automation-testing','software-testing']
+  courses: ['testare-automata','testare-manuala']
   social:
     - title: linkedin
       url: https://linkedin.com/in/vapopa
@@ -55,6 +56,7 @@ people:
 - name: Liviu Costea
   pic: liviu
   position: Trainer
+  courses: ['dot-net']
   social:
     - title: linkedin
       url: https://linkedin.com/in/liviucostea
@@ -77,7 +79,7 @@ people:
 - name: Bogdan Rusu
   pic: bogdan
   position: Trainer
-  courses: ['software-testing']
+  courses: ['testare-manuala']
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/bogdan-rusu-5288a43
