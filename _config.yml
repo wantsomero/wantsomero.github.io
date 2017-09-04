@@ -88,6 +88,30 @@ people:
     - title: twitter
       url: #
 
+- name: Sebastian Ungureanu
+  pic: sebastian
+  position: Trainer
+  courses: ['infrastructure']
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/sebastian-ungureanu-89621215
+    - title: facebook
+      url: #
+    - title: twitter
+      url: #
+
+- name: Michael Stoica
+  pic: michael
+  position: Trainer
+  courses: ['infrastructure']
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/michaelstoica
+    - title: facebook
+      url: #
+    - title: twitter
+      url: #
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
