@@ -14,8 +14,6 @@ people:
   social:
     - title: linkedin
       url: https://linkedin.com/in/iulianaanton
-    - title: facebook
-      url: https://www.facebook.com/anton.iuliana.gabriela
 
 - name: Enciu Stoica
   pic: enciu
@@ -24,8 +22,6 @@ people:
   social:
     - title: linkedin
       url: https://linkedin.com/in/enciustoica
-    - title: facebook
-      url: https://www.facebook.com/enciu
     - title: twitter
       url: https://twitter.com/encius
 
@@ -36,10 +32,6 @@ people:
   social:
     - title: linkedin
       url: https://linkedin.com/in/ionmacari
-    - title: facebook
-      url: #
-    - title: twitter
-      url: #
 
 - name: Vali Popa
   pic: vali
@@ -48,22 +40,18 @@ people:
   social:
     - title: linkedin
       url: https://linkedin.com/in/vapopa
-    - title: facebook
-      url: https://www.facebook.com/valipoparo
     - title: twitter
       url: https://twitter.com/valime
 
 - name: Liviu Costea
   pic: liviu
   position: Trainer
-  courses: ['dot-net']
+  courses: ['programare-dot-net']
   social:
     - title: linkedin
       url: https://linkedin.com/in/liviucostea
-    - title: facebook
-      url: #
     - title: twitter
-      url: #
+      url: clm160
 
 - name: Diana Sofian
   pic: diana
@@ -71,10 +59,6 @@ people:
   social:
     - title: linkedin
       url: https://linkedin.com/in/diana-sofian-b4253989
-    - title: facebook
-      url: #
-    - title: twitter
-      url: #
 
 - name: Bogdan Rusu
   pic: bogdan
@@ -83,10 +67,6 @@ people:
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/bogdan-rusu-5288a43
-    - title: facebook
-      url: #
-    - title: twitter
-      url: #
 
 - name: Sebastian Ungureanu
   pic: sebastian
@@ -95,10 +75,6 @@ people:
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/sebastian-ungureanu-89621215
-    - title: facebook
-      url: #
-    - title: twitter
-      url: #
 
 - name: Michael Stoica
   pic: michael
@@ -107,10 +83,24 @@ people:
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/michaelstoica
-    - title: facebook
-      url: #
     - title: twitter
-      url: #
+      url: michaelstoica
+
+- name: Ciprian Lipan
+  pic: ciprian
+  position: Trainer
+  courses: ['programare-dot-net']
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/ciprian-lipan-93a5b517/
+
+- name: Eugen Anghel
+  pic: eugen
+  position: Trainer
+  courses: ['programare-java']
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/eugenanghel/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
