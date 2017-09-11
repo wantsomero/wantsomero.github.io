@@ -945,7 +945,7 @@ body {
 }
 
 article h2 {
-    color: #fed136;
+    color: #{{ site.data.template.color.primary }};
 }
 
 article date {
@@ -994,7 +994,7 @@ ul.share-buttons img{
 }
 
 .workshop h4 {
-	color: #fed136;
+	color: #{{ site.data.template.color.primary }};
 }
 
 .page > .container {
