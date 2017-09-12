@@ -9,7 +9,7 @@ thumbnail: fa-server
 alt: image-alt
 project-date: Toamnă 2017
 client: Start Bootstrap
-category: dev-do-not-show
+category: dev
 description:
 
 ---
