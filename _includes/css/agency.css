@@ -223,7 +223,7 @@ fieldset[disabled] .btn-xl.active {
     -moz-transition: all ease .35s;
     transition: all ease .35s;
     line-height: 80px;
-    height: 80px;
+    height: 50px;
     padding-top: 0;
 }
 
