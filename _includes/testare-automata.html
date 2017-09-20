@@ -63,7 +63,21 @@
 								</span>
 				<h4>Înscrieri</h4>
 				<h5>Online</h5>
-				<p><a class="btn btn-xl" href="https://goo.gl/forms/3cr0s8OStOg7e41G2" target="_blank">Aplică acum</a></p>
+				<p><a class="btn btn-xl" id="aplica" href="https://goo.gl/forms/3cr0s8OStOg7e41G2" target="_blank">Aplică acum</a></p>
+				<!-- Add Pixel Events to the button's click handler -->
+				<script type="text/javascript">
+					var button = document.getElementById('aplica');
+					button.addEventListener(
+						'click',
+						function() {
+							fbq('track', 'CompleteRegistration', {
+								content_name: 'Testare automata',
+								status: 'started'
+							});
+						},
+						false
+					);
+				</script>
 			</div>
 		</div>
 	</div>
