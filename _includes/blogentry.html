@@ -6,6 +6,10 @@
 					<h2><a href="{{ site.prefix }}{{ page.url }}">{{ page.title }}</a></h2>
 					<h4><strong>{{ site.author }}</strong><date>{{ page.date | date: "%B %-d, %Y" }}</date></h4>
 				</div>
+				{% if page.image %}
+					<img class="img-responsive img-square" src="{{ site.url }}/img/{{ page.image }}"/>
+				{% endif %}
+				<p></p>
 				<div class="entry-content">{{ content }}</div>
 			</div>
 		</div>

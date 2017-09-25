@@ -6,6 +6,7 @@ date: 2017-09-25
 category: blog
 description:
 excerpt_separator: <!--more-->
+image: blog/drumul_catre_succes.png
 ---
 <strong>„I've always considered myself to be just average talent and what I have is a ridiculous insane obsessiveness for practice and preparation.” - Will Smith</strong>
 
