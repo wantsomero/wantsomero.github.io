@@ -2,23 +2,23 @@
 title: Drumul către succesul în carieră este pavat cu ore de practică pe bune. La Wantsome
 layout: post
 modal-id: 6
-date: 2017-09-26
+date: 2017-09-25
 category: blog
 description:
 excerpt_separator: <!--more-->
 ---
 <strong>„I've always considered myself to be just average talent and what I have is a ridiculous insane obsessiveness for practice and preparation.” - Will Smith</strong>
 
-Pe 23 septembrie, primii absolvenți ai academiei Wantsome vor ieși victorioși pe ușile sălilor de curs, încrezători în ceea ce le va aduce viitorul. Unii dintre ei au „furat” startul, căci au reușit să se angajeze încă din primele săptămâni de curs. Suntem mândri de fiecare în parte și de noi deopotrivă și abia așteptăm să începem cea de-a doua serie de cursuri.
+Pe 23 septembrie, primii absolvenți ai academiei Wantsome au ieșit victorioși pe ușile sălilor de curs, încrezători în ceea ce le va aduce viitorul. Unii dintre ei au „furat” startul, căci au reușit să se angajeze încă din primele săptămâni de curs. Suntem mândri de fiecare în parte și de noi deopotrivă și abia așteptăm să începem cea de-a doua serie de cursuri.
 <!--more-->
 
 <h3>Primele Wantsome Transformations</h3>
 
 Fiecare om este diferit iar cursanții noștri ne-au demonstrat acest lucru; unii au preferat să parcurgă întreaga programă a cursurilor de testare manuală sau automată și abia apoi să aplice pentru joburi iar alții s-au simțit pregătiți după doar câteva săptămâni de curs.
 
-Dintre aceștia din urmă, șase sunt deja angajați și fericiți iar poveștile lor au început să apară și aici, pe blogul nostru. Vă invităm să citiți despre transformările <a href="{{ site.url }}/wantsome-transformations-veronica-de-la-proiectant-la-junior-programmer-la-continental.html"><strong>Veronicăi</strong></a> și ale <a href="{{ site.url }}/wantsome-transformations-endora-de-la-tehnician-dentar-la-junior-programmer-la-continental.html"><strong>Endorei</strong></a> în junior programmers la Continental din proiectant, respectiv tehnician dentar.
+Dintre aceștia din urmă, cinci sunt deja angajați și fericiți iar poveștile lor au început să apară și aici, pe blogul nostru. Vă invităm să citiți despre transformările <a href="{{ site.url }}/wantsome-transformations-veronica-de-la-proiectant-la-junior-programmer-la-continental.html"><strong>Veronicăi</strong></a> și ale <a href="{{ site.url }}/wantsome-transformations-endora-de-la-tehnician-dentar-la-junior-programmer-la-continental.html"><strong>Endorei</strong></a> în junior programmers la Continental din proiectant, respectiv tehnician dentar.
 
-Este important de menționat este că acești oameni, atunci când au călcat pragul sălilor noastre de curs, aveau cunoștințe minime în domeniul testării.
+Este important de menționat că acești oameni, atunci când au călcat pragul sălilor noastre de curs, aveau cunoștințe minime în domeniul testării.
 
 <strong>Așadar, ceea ce face Wantsome special este că ia oameni ce pot veni cu zero cunoștințe de programare și îi transformă în candidați perfect angajabili.</strong> Cursurile noastre sunt suficiente pentru ca acest lucru să se întâmple și nu este nevoie de alte cursuri suplimentare.
 
