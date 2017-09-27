@@ -1,5 +1,5 @@
 ---
-title: Drumul către succesul în carieră este pavat cu ore de practică pe bune. La Wantsome
+title: Drumul către succesul în IT este pavat cu ore de practică pe bune. La Wantsome
 layout: post
 modal-id: 6
 date: 2017-09-25
