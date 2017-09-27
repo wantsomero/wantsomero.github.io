@@ -29,6 +29,6 @@ Aș recomanda cursurile Wantsome oricărui prieten și oricărei persoane intere
 
 Pe 10 octombrie începem o nouă sesiune de cursuri iar înscrierile sunt deschise. De data aceasta, pe lângă cursurile de <a href="{{ site.url }}/curs-testare-manuala-iasi"><strong>testare manuală</strong></a> și <a href="{{ site.url }}/curs-testare-automata-iasi"><strong>testare automată</strong></a>, am adăugat trei cursuri noi: <a href="{{ site.url }}/curs-programare-java-iasi"><strong>Programare Java</strong></a>, <a href="{{ site.url }}/curs-programare-dot-net-iasi"><strong>Programare .NET</strong></a> și <a href="{{ site.url }}/curs-infrastructure-iasi"><strong>Infrastructure</strong></a>.
 
-<h3>Înscrie-te și tu și începe procesul de transormare pe care ți-l dorești!</h3>
+<h3>Înscrie-te și tu și începe procesul de transformare pe care ți-l dorești!</h3>
 
 Pe Iosua îl poți contacta <a href="https://www.facebook.com/joshua.chitescu/" target="_blank">personal</a> pentru a-ți împărtăși din experiența lui în Wantsome.
