@@ -682,6 +682,9 @@ section h3.section-subheading {
   min-height: 310px;
 }
 
+.attention {
+  color: red;
+}
 aside.clients img {
     margin: 50px auto;
 }
