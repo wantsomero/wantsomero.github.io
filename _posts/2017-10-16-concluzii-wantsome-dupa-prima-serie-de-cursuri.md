@@ -39,3 +39,27 @@ Aceștia sunt primii Wantsomebees care s-au angajat, dar mai sunt alții în div
 Cea de-a doua serie a cursurilor de testare manuală și automată a început deja iar în luna octombrie urmează să dăm startul și cursurilor de <a href="{{ site.url }}/curs-programare-java-iasi"><strong>Programare Java</strong></a>, <a href="{{ site.url }}/curs-programare-dot-net-iasi"><strong>Programare .NET</strong></a> și <a href="{{ site.url }}/curs-infrastructure-iasi"><strong>Infrastructure</strong></a>.
 
 Dacă vrei să fii și tu una dintre poveștile de succes Wantsome, te așteptăm alături de noi!
+
+<div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="{{ site.url }}/img/blog/IMG_1038.jpg">
+        <img src="{{ site.url }}/img/blog/IMG_1038.jpg" style="width:100%">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+    <a href="{{ site.url }}/img/blog/IMG_1047.jpg">
+    <img src="{{ site.url }}/img/blog/IMG_1047.jpg" style="width:100%">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+    <a href="{{ site.url }}/img/blog/IMG_7357.jpg">
+    <img src="{{ site.url }}/img/blog/IMG_7357.jpg" style="width:100%">
+      </a>
+    </div>
+  </div>
+</div>
