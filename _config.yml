@@ -102,6 +102,14 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/eugenanghel/
 
+- name: Răzvan Savel
+  pic: razvan
+  position: Trainer
+  courses: ['testare-automata']
+  social:
+    - title: linkedin
+      url: https://linkedin.com/in/razvansavel
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
