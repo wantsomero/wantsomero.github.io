@@ -22,8 +22,6 @@ La prima noastră întâlnire, ne-a explicat ce face ea zi de zi în laborator i
 
 <h3>„Wantsome m-a ajutat foarte mult să obțin ceea ce îmi propusesem.  A contribuit nu numai prin faptul că am avut parte de niște traineri grozavi, bine pregătiți, dar și prin căldura și suportul oferit constant.”</h3>
 
-Loredana i-a impresionat pe loc pe cei de la BeeNear, așa că a primit încă de la primul interviu o ofertă de job.
-
 Așa cum am știut încă de la început, ea este un tester minunat iar de acum acest lucru este și oficial.
 
 <h3>„Pe viitor, am de gând să dezvolt o carieră de succes construind pe temelia solidă oferita de trainerii de la Wantsome.”</h3>
