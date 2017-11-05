@@ -110,6 +110,14 @@ people:
     - title: linkedin
       url: https://linkedin.com/in/razvansavel
 
+- name: Răzvan Feidi
+  pic: razvan_feidi
+  position: Trainer
+  courses: ['programare-java']
+  social:
+    - title: linkedin
+      url: https://linkedin.com/in/razvan-feidi-49744a10
+      
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter

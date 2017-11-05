@@ -1,5 +1,5 @@
 ---
-title: Wantsome Transformations&#58; Loredana - de la laborant la Tester la BeeNear
+title: Wantsome Transformations&#58; Loredana - de la laborant la Tester
 layout: post
 modal-id: 6
 date: 2017-10-29
