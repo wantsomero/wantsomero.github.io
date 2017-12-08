@@ -2,7 +2,7 @@
 title: Network&Infrastructure
 subtitle:
 layout: default
-modal-id: curs-infrastructure-iasi
+modal-id: curs-network-infrastructure-iasi
 date: 2014-07-16
 img: fa-server
 thumbnail: fa-server
