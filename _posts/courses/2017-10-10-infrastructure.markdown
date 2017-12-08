@@ -1,5 +1,5 @@
 ---
-title: Infrastructure
+title: Network&Infrastructure
 subtitle:
 layout: default
 modal-id: curs-infrastructure-iasi
