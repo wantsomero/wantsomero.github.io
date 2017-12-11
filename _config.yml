@@ -71,7 +71,7 @@ people:
 - name: Sebastian Ungureanu
   pic: sebastian
   position: Trainer
-  courses: ['infrastructure']
+  courses: ['network-infrastructure']
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/sebastian-ungureanu-89621215
@@ -79,7 +79,7 @@ people:
 - name: Michael Stoica
   pic: michael
   position: Trainer
-  courses: ['infrastructure']
+  courses: ['network-infrastructure']
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/michaelstoica
@@ -117,7 +117,7 @@ people:
   social:
     - title: linkedin
       url: https://linkedin.com/in/razvan-feidi-49744a10
-      
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
