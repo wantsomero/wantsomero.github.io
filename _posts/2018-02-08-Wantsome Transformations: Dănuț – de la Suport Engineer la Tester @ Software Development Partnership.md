@@ -5,6 +5,9 @@ modal-id: 6
 date: 2018-02-08T00:00:00.000Z
 category: blog
 excerpt_separator: <!--more-->
+title: >-
+  Wantsome Transformations&#58; Dănuț – de la Suport Engineer la Tester @
+  Software Development Partnership
 ---
 
 Dincolo de dorința de a face o schimbare în viața lor, de curajul de a face lucrurile altfel și de încrederea în forțele proprii, cei ce aleg Wantsome sunt și pragmatici; ei își doresc să fie fericiți și știu că și confortul financiar contribuie la starea lor de bine la locul de muncă.
