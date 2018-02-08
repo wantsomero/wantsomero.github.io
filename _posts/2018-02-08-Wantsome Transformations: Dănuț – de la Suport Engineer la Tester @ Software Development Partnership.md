@@ -22,5 +22,3 @@ Totuși, eforturile sale s-au dovedit a fi cu succes, căci din 8 ianuarie el a 
 Dănuț a mers la interviu încrezător și foarte bine pregătit și a reușit să-l treacă cu brio și fără mari emoții.
 
 Suntem mândri că facem parte din povestea de succes a lui Dănuț și abia așteptăm să vedem ce oportunități vor mai apărea în cariera sa, datorită cunoștințelor de testare dobândite în cadrul cursurilor Wantsome.
-
-
