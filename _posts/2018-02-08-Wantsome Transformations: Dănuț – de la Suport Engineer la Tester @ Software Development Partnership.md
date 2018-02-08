@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 Dincolo de dorința de a face o schimbare în viața lor, de curajul de a face lucrurile altfel și de încrederea în forțele proprii, cei ce aleg Wantsome sunt și pragmatici; ei își doresc să fie fericiți și știu că și confortul financiar contribuie la starea lor de bine la locul de muncă.
@@ -7,7 +7,7 @@ Dincolo de dorința de a face o schimbare în viața lor, de curajul de a face l
 Se știe deja că domeniul IT este unul în care avantajele financiare există, cu condiția să fii bun în ceea ce faci. 
 <!--more-->
 
-<img src="{{ site.url }}/img/blog/ danut_cirjan.jpg" class="img-responsive img-square" align="right"/> Această condiție nu a speriat pe niciunul dintre oamenii care ne-au urmat cursurile și nu l-a speriat nici pe Dănuț Cîrjan. Dimpotrivă, a fost o motivație suficient de puternică ce l-a impulsionat să învețe tot mai mult și să devină din ce în ce mai bun.
+<img src="{{ site.url }}/img/blog/danut_cirjan.jpg" class="img-responsive img-square" align="right"/> Această condiție nu a speriat pe niciunul dintre oamenii care ne-au urmat cursurile și nu l-a speriat nici pe Dănuț Cîrjan. Dimpotrivă, a fost o motivație suficient de puternică ce l-a impulsionat să învețe tot mai mult și să devină din ce în ce mai bun.
 
 ### „Wantsome a fost o opțiune pentru schimbarea profesională.  La început a fost o alegere financiar avantajoasă și s-a dovedit a fi o alegere bună.”
 
