@@ -16,10 +16,9 @@ Nicoleta Munteanu face parte dintre cursanții primei serii de Testare Manuală.
 
 <img src="{{ site.url }}/img/blog/nicoleta.JPG" class="img-responsive img-square" align="right"/> Ceea ce ne aduce nouă povestea de succes a Nicoletei este oportunitatea de a trece din nou în revistă toate motivele pentru care Wantsome este cea mai bună alegere, atunci când vrei să faci o schimbare de macaz și să pornești pe drumul testării manuale sau automate.
 
-### „Prietenilor mei le-aș spune că, dacă doresc să facă un curs cu cineva care chiar se implică, să vă aleagă.”
+## „Prietenilor mei le-aș spune că, dacă doresc să facă un curs cu cineva care chiar se implică, să vă aleagă.”
 
-**De ce trainerii noștri sunt foarte buni**
-
+### De ce trainerii noștri sunt foarte buni
 Da, știm că modestia ne ocolește, însă acesta este adevărul: trainerii noștri sunt foarte buni și nu numai pentru că sunt profesioniști în domeniu, ci și pentru că sunt extrem de pasionați dar, mai ales, pentru că sunt buni dascăli. Dorința de a împărtăși din cunoștințele lor este evidentă iar felul în care transmit mai departe ceea ce știu este unul dintre marile puncte forte ale Academiei Wantsome.
 
 Săptămânal, cursanții primesc teme pentru acasă, cu scopul de a-și consolida cunoștințele teoretice și practice primite. Trainerii se ocupă de corectarea acestor teme, de analiza lor în amănunt și oferă sprijin și sfaturi pentru fiecare cursant în parte.
