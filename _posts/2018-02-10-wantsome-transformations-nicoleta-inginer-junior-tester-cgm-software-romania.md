@@ -1,9 +1,11 @@
 ---
 published: true
-title: Wantsome Transformations&#58; Nicoleta – de la Inginer la Junior Tester @CGM Software Romania
+title: >-
+  Wantsome Transformations&#58; Nicoleta – de la Inginer la Sonovision la Junior
+  Tester @CGM Software Romania
 layout: post
 modal-id: 6
-date: 2018-02-10T00:00:00.000Z
+date: {}
 category: blog
 excerpt_separator: <!--more-->
 ---
@@ -28,6 +30,6 @@ Trainerii se implică activ și în procesul de recrutare la companiile din dome
 
 Pentru că este important atât pentru noi, cât și pentru ei să își îndeplinească visul de a-și schimba cariera așa cum și-o doresc, ne asigurăm că sunt pregătiți, din toate punctele de vedere. Așa că, înainte de a merge la interviu, facem cu ei simulări atât pe partea tehnică, dar și pe partea de HR, a interacțiunii umane.
 
-Acesta este, de altfel, și unul dintre motivele pentru care rata de angajare după prima serie Wantsome este de 77%. Angajatorii sunt extrem de încântați de cunoștințele practice cu care cursanții noștri ajung la ei.
+Acesta este, de altfel, și unul dintre motivele pentru care rata de angajare după prima serie Wantsome este una deosebit de mare. Angajatorii sunt extrem de încântați de cunoștințele practice cu care cursanții noștri ajung la ei.
 
 Recitind toate argumentele enumerate mai sus, nu putem decât să-i mulțumim Nicoletei că ne-a dat ocazia să le scriem aici și să fim tare mândri de noi și de cei ce ne aleg.
