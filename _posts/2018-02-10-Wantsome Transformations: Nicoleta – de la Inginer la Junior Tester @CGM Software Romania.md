@@ -1,11 +1,11 @@
 ---
-published: false
+published: true
 Title: >-
   Wantsome Transformations&#58; Nicoleta – de la Inginer la Junior Tester @CGM
   Software Romania
 layout: post
 modal-id: 6
-date: 2018-02-10T00:00:00.000Z
+date: {}
 category: blog
 excerpt_separator: <!--more-->
 ---
