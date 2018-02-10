@@ -5,7 +5,7 @@ title: >-
   Tester @CGM Software Romania
 layout: post
 modal-id: 6
-date: {}
+date: 2018-01-10
 category: blog
 excerpt_separator: <!--more-->
 ---
