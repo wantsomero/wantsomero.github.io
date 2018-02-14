@@ -1,8 +1,8 @@
 ---
-published: false
+published: true
 layout: post
 modal-id: 6
-date: 2018-02-14T00:00:00.000Z
+date: {}
 category: blog
 excerpt_separator: <!--more-->
 ---
@@ -28,4 +28,3 @@ Așa cum spune și Denis, și toți cursanții noștri de altfel, la Wantsome g�
 Acum, Denis își dorește să crească și să devină din ce în ce mai bun în domeniul testării manuale, ca mai apoi să înceapă o nouă provocare: Testare Automată. Unde va urma Denis cursul de Testare Automată? Bineînțeles, tot la Wantsome, așa cum ne-a anunțat chiar el. Se pare că, până la urmă, tot a ajuns un fel de avocat, așa cum își dorea când era copil, pentru că Denis a devenit un adevărat avocat și ambasador al cursurilor Wantsome!
 
 Povestea de succes a lui Denis este încă o mărturie a lucrurilor făcute bine și cu pasiune, așa cum știm noi să le facem la Wantsome. Este dovada care îți confirmă că poți reuși și tu, dacă nu renunți niciodată la visul tău. Este lecția care te învață că atunci când ești determinat și ai lângă tine mentorii perfecți, nimic nu te poate opri!
-
