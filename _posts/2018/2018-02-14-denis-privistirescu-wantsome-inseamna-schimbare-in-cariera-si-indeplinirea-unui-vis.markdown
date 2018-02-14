@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 Când era mic, Denis visa să devină avocat. De abia când a ajuns la facultate, a descoperit o nouă pasiune, care l-a condus spre un nou vis: acela de a lucra în IT. De la prima interacțiune cu IT-ul, Denis a știut că acesta este domeniul în care vrea să activeze. Așa că a început să se documenteze, să studieze și exploreze tainele tehnologiei.
 
-Simțea nevoia să învețe mai mult și, mai ales, să învețe practic despre tot ce înseamnă o meserie în IT. A căutat pe Internet cele mai bune cursuri practice de IT din Iași și așa a ajuns să descopere cursurile noastre și să afirme, ulterior, că Wantsome a fost exact ce a avut nevoie.
+Simțea nevoia să învețe mai mult și, mai ales, să învețe practic despre tot ce înseamnă o meserie în IT. A căutat pe Internet cele mai bune cursuri practice de IT din Iași și așa a ajuns să descopere cursurile noastre, să se înscrie în a doua serie de curs și să afirme, ulterior, că Wantsome a fost exact ce a avut nevoie.
 <!--more-->
 
 <img src="{{ site.url }}/img/blog/denis.jpg" class="img-responsive img-square" align="right"/> A început cu un curs de Testare Manuală, unul dintre cursurile noastre de bază, pentru că a vrut să pornească de jos în procesul lui de învățare și de dezvoltare. Era hotărât să clădească un nivel solid de cunoștințe, ridicat piesă cu piesă, cu răbdare și cu atenție.
