@@ -1,8 +1,7 @@
 ---
-published: true
-layout: post
-modal-id: 6
-date: {}
+layout: "post"
+title: "Denis Privistirescu: Wantsome înseamnă schimbare în carieră și îndeplinirea unui vis"
+date: "2018-02-14 11:46"
 category: blog
 excerpt_separator: <!--more-->
 ---
@@ -17,11 +16,11 @@ Ca orice lucru care presupune implicare, nu au lipsit nici provocările. Era des
 
 ## „A fost greu, dar a meritat! Rezultatul își spune cuvântul. Pe măsură ce învățam lucruri noi și aveam ghidare din partea trainerilor (care, apropos, sunt niște oameni minunați), vedeam cum visul meu de a lucra în IT prinde culoare.”
 
-Denis își dorea foarte mult un loc de muncă în IT, unde să fie înconjurat de oameni minunați, de la care să aibă posibilitatea să învețe și să avanseze. Visul lui Denis s-a împlinit chiar în timpul cursurilor Wantsome, odată cu angajarea lui în postul mult-dorit – QA Manual Tester la Ness Engineering Technologies. Datorită cunoștințelor teoretice și practice dobândite la noi, dar și a simulărilor de interviu făcute în cadrul Wantsome, Denis nu a avut deloc emoții la interviul de angajare. Era stăpân pe el și se simțea în sfârșit pregătit pentru marea schimbare. 
+Denis își dorea foarte mult un loc de muncă în IT, unde să fie înconjurat de oameni minunați, de la care să aibă posibilitatea să învețe și să avanseze. Visul lui Denis s-a împlinit chiar în timpul cursurilor Wantsome, odată cu angajarea lui în postul mult-dorit – QA Manual Tester la Ness Engineering Technologies. Datorită cunoștințelor teoretice și practice dobândite la noi, dar și a simulărilor de interviu făcute în cadrul Wantsome, Denis nu a avut deloc emoții la interviul de angajare. Era stăpân pe el și se simțea în sfârșit pregătit pentru marea schimbare.
 
-Experiența Wantsome și-a atins încă o dată obiectivele și a ajutat încă un om să aibă încredere în el pentru a face schimbarea optimă de carieră. E o experiență care trece dincolo de învățare și de cunoștințe, pentru că leagă prietenii și te dezvoltă nu doar ca practician în domeniu, ci și ca om. 
+Experiența Wantsome și-a atins încă o dată obiectivele și a ajutat încă un om să aibă încredere în el pentru a face schimbarea optimă de carieră. E o experiență care trece dincolo de învățare și de cunoștințe, pentru că leagă prietenii și te dezvoltă nu doar ca practician în domeniu, ci și ca om.
 
-Așa cum spune și Denis, și toți cursanții noștri de altfel, la Wantsome găsești oameni minunați, care te ajută și te susțin în orice moment. Mentorii îți oferă ghidare pe orice plan și te ajută să îți îndeplinești visul. Iar ceea ce este extrem de important la cursurile Wantsome este practica pe bune, atât de necesară în IT. 
+Așa cum spune și Denis, și toți cursanții noștri de altfel, la Wantsome găsești oameni minunați, care te ajută și te susțin în orice moment. Mentorii îți oferă ghidare pe orice plan și te ajută să îți îndeplinești visul. Iar ceea ce este extrem de important la cursurile Wantsome este practica pe bune, atât de necesară în IT.
 
 ## „Dacă ar fi să aleg din nou o academie, Wantsome ar fi răspunsul! Pentru mine, Wantsome înseamnă schimbarea și îndeplinirea visului mult-așteptat.”
 
