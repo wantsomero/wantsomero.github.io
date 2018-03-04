@@ -118,6 +118,14 @@ people:
     - title: linkedin
       url: https://linkedin.com/in/razvan-feidi-49744a10
 
+- name: Codruța Salomia
+  pic: codruta
+  position: Trainer
+  courses: ['testare-manuala']
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/codruta-salomia-3b2473/
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
