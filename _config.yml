@@ -126,6 +126,14 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/codruta-salomia-3b2473/
 
+- name: Andrei Hrișcă
+  pic: andrei_hrisca
+  position: Trainer
+  courses: ['testare-manuala']
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/andrei-hrisca-2a5306b/
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
