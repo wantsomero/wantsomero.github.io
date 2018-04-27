@@ -23,7 +23,7 @@ html, body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.75;
 }
 
@@ -1032,4 +1032,8 @@ ul.share-buttons img{
 .lead {
   font-style: italic;
   padding: 20px;
+}
+
+.entry-content img {
+    margin: 10px 10px auto;
 }

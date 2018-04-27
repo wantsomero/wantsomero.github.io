@@ -154,5 +154,13 @@ address:
 # Build settings
 markdown: kramdown
 permalink: /:title.html
-gems:
+plugins:
   - jekyll-sitemap
+
+mini_magick:
+    thumbnail:
+        source: img/galleries
+        destination: img/galleries/thumbs
+        resize: "200x200^"
+        gravity: "center"
+        extent: "200x200"
