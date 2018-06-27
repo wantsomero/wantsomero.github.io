@@ -1,0 +1,23 @@
+---
+layout: "post"
+title: "Răzvan Norses: Wantsome este cea mai bună Academie de IT"
+date: "2018-06-18 08:25"
+category: blog
+excerpt_separator: <!--more-->
+---
+Știm că ți-am spus până acum multe povești de succes ale absolvenților de la cursurile de Testare și de Programare Wantsome. Ei, a venit momentul să îți împărtășim povești inspiraționale și de la cursul de Network & Infrastructure, a cărei primă serie de cursanți se pregătește în curând de absolvire. Astăzi, îți spunem povestea lui Răzvan, cursantul de la Network & Infrastructure care **s-a angajat înainte de finalizarea cursului!** Vrei să îi afli povestea? Atunci ia-ți o cafea, așază-te comod și citește aici!
+<!--more-->
+
+{% lightbox img/galleries/razvan_norses.jpg --thumb="img/galleries/thumbs/razvan_norses.jpg" --data="image_set" --title="Razvan Norses - NOC Engineer" --alt="Razvan Norses - NOC Engineer" --img-style="max-width:80%;" --class="responsive pull-left" %}A fost odată un băiețel pe nume Răzvan Norses, care iubea cifrele și visa să devină profesor de matematică. Anii au trecut, iar pasiunea băiatului a cunoscut o nouă ramură de care s-a îndrăgostit: IT-ul! Când a crescut mare și-a dorit foarte mult să lucreze în acest domeniu. Dar avea nevoie de ceva care să îi pună bazele pe bune, atât pe parte teoretică, dar mai ales pe parte practică. Și a început să caute **cursul care avea să îi schimbe viața!**
+
+Așa a găsit cursul de [Network & Infrastructure]({{ site.url }}/curs-network-infrastructure-iasi) de la Wantsome și a simțit imediat că e exact ceea ce-i trebuie. I-au plăcut conceptele de „Academie prietenoasă de IT” și „practică pe bune”, l-a atras mult programa cursului și a apreciat experiența celor doi traineri, Sebastian Ungureanu și Michael Stoica. Chiar l-a abordat pe Sebastian pe LinkedIn și i-a adresat multe întrebări cu privire la curs. A fost atât de plăcut surprins de promptitudinea și de profesionalismul lui Sebastian, încât și-a dat seama repede că e persoana potrivită de la care poate învăța. Și uite așa s-a înscris Răzvan la prima serie a cursului de Network & Infrastructure și a început călătoria celor 16 săptămâni de curs printre prietenii de la Wantsome!
+
+### „A fost o adevărată provocare, mai ales când era vorba de proiecte mai dificile. Am simțit de multe ori că nu le pot face, dar am reușit să le finalizez de fiecare dată, atât prin studiul îndelungat de acasă, cât și prin sprijinul trainerilor. Sunt oameni cu o vastă experiență în domeniu, foarte buni pedagogi, cu mult bun simț și răbdare. Au reușit de fiecare dată să ne determine să nu renunțăm atunci când lucrurile deveneau cu adevărat complicate pentru noi.”
+
+Cea mai importantă lecție pe care a învățat-o Răzvan de-a lungul celor 16 săptămâni de curs a fost că **dacă îți dorești ceva cu adevărat și muncești foarte mult pentru asta, vei reuși!** A învățat-o din propria experiență, pentru că Răzvan s-a angajat în IT chiar dinainte de absolvire și și-a îndeplinit, astfel, marele vis! La interviul de angajare s-a prezentat sigur pe el și fără emoții, pentru că, de-a lungul cursului, dobândise mai multă încredere în sine și învățase atât de multe lucruri importante despre industrie. Acum, Răzvan este **NOC Engineer la Vezuvian și se bucură de cariera la care a râvnit și pentru care a muncit atât de mult!**
+
+### „Le recomand tuturor să se înscrie în Wantsome! Este cea mai bună Academie de IT, în care practica este pe primul loc, iar relația cu trainerii te motivează să vrei mai mult de la tine. Pentru mine, oamenii din Wantsome reprezintă modele de urmat, prieteni și, nu în ultimul rând, oamenii fără de care nu aș fi reușit să intru în acest domeniu într-un timp atât de scurt. Le mulțumesc enorm pentru tot ce au făcut și cu siguranță voi mai face și alte cursuri la Wantsome!”
+
+Răzvan e determinat să nu se oprească aici! Crede că IT-ul este un domeniu în care trebuie să înveți tot timpul și care îți oferă posibilitatea de a fi mereu cu un pas înainte. Vrea nu doar să se întoarcă în Wantsome pentru mai multe cursuri IT, ci vrea să ajungă să dea mai departe tot ceea ce a învățat. Nu ca profesor de matematică, așa cum își dorea să devină când era copil, ci ca unul dintre **trainerii Wantsome care inspiră și schimbă destine.**
+
+Pentru că asta facem noi aici, la Wantsome: te încurajăm să îndrăznești să faci o schimbare, te ajutăm să îți îndeplinești visul și te inspirăm să dai tot ce e mai bun din tine! Dacă ești gata pentru provocarea care îți va schimba viața, noi, prietenii de la Wantsome, te așteptăm să te înscrii pe [www.wantsome.ro](http://www.wantsome.ro) și să te alături poveștilor de succes din minunata lume a IT-ului!

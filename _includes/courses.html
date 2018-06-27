@@ -1,81 +1,80 @@
 <!-- Portfolio Grid Section -->
 <section id="portfolio" class="bg-light-gray">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Wantsome IT?</h2>
-                <h3 class="section-subheading">Acumularea de noi aptitudini și cunoștințe te ajută să devii un angajat de valoare. Fă cunoștință cu oferta noastră de cursuri!</h3>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Wantsome IT?</h2>
+        <h3 class="section-subheading">Acumularea de noi aptitudini și cunoștințe te ajută să devii un angajat de valoare. Fă cunoștință cu oferta noastră de cursuri!</h3>
+      </div>
+    </div>
+    <div class="row">
+      {% for course in site.pages %} {% if course.categories contains 'courses' %}
+      <div class="col-md-4 col-sm-6 portfolio-item centered">
+
+        <a href="{{ site.baseurl }}/{{ course.slug }}.html" class="portfolio-link" data-toggle="modal">
+
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fa fa-plus fa-3x"></i>
             </div>
-        </div>
-        <div class="row">
-            {% for course in site.categories.dev %}
-            <div class="col-md-4 col-sm-6 portfolio-item centered">
-
-              <a href="{{ site.baseurl }}/{{ course.modal-id }}" class="portfolio-link" data-toggle="modal">
-
-			<div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <span class="fa-stack fa-4x centered">
+          </div>
+          <span class="fa-stack fa-4x centered">
                             <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa {{ course.thumbnail }} fa-stack-1x fa-inverse"></i>
+                            <i class="{{ course.fa }} {{ course.thumbnail }} fa-stack-1x fa-inverse"></i>
                         </span></a>
-                <!-- <img src="img/portfolio/{{ course.thumbnail }}" class="img-responsive img-centered" alt=""> -->
 
-				<a href="{{ site.baseurl }}/{{ course.modal-id }}" class="portfolio-link" data-toggle="modal">
+        <a href="{{ site.baseurl }}/{{ course.slug }}.html" class="portfolio-link" data-toggle="modal">
 
-                    <div class="portfolio-caption">
-                        <h4>{{ course.title }}</h4>
-                        <p class="text-muted">{{ course.subtitle }}</p>
-                    </div>
-                </a>
-            </div>
-            {% endfor %}
-        </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h3 class="section-heading">Pe cine căutăm, la Wantsome?</h2>
+          <div class="portfolio-caption">
+            <h4>{{ course.course-title }}</h4>
+            <!-- <p class="text-muted">{{ course.subtitle }}</p> -->
+          </div>
+        </a>
+      </div>
+{% endif %} {% endfor %}    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h3 class="section-heading">Pe cine căutăm, la Wantsome?</h2>
                 <h3 class="section-subheading text-muted"></h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-              <div class="col-sm-4">
-                  <div class="team-member">
-                    <span class="fa-stack fa-4x">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="col-sm-4">
+          <div class="team-member">
+            <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-users fa-stack-1x fa-inverse"></i>
                     </span>
-                      <h4>Wantsomebees</h4>
-                      <p></p>
-                      <p>candidați fascinați de informație și date, care își doresc o reconversie profesională și cărora le-ar plăcea să intre în IT. Ei provin din medii tehnice sau mai puțin tehnice, conexe IT-ului: electrotehnică, electronică, economie, matematică, liceul informatic</p>
-                  </div>
-              </div>
-              <div class="col-sm-4">
-                  <div class="team-member">
-                    <span class="fa-stack fa-4x">
+            <h4>Wantsomebees</h4>
+            <p></p>
+            <p>candidați fascinați de informație și date, care își doresc o reconversie profesională și cărora le-ar plăcea să intre în IT. Ei provin din medii tehnice sau mai puțin tehnice, conexe IT-ului: electrotehnică, electronică, economie, matematică,
+              liceul informatic</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-user-plus fa-stack-1x fa-inverse"></i>
                     </span>
-                      <h4>Wantsomemores</h4>
-                      <p></p>
-                      <p>candidați pasionați care lucrează și dezvoltă deja în mediul IT, interesați să învețe și să exploreze noi tehnologii</p>
-                  </div>
-              </div>
-              <div class="col-sm-4">
-                  <div class="team-member">
-                    <span class="fa-stack fa-4x">
+            <h4>Wantsomemores</h4>
+            <p></p>
+            <p>candidați pasionați care lucrează și dezvoltă deja în mediul IT, interesați să învețe și să exploreze noi tehnologii</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-user-secret fa-stack-1x fa-inverse"></i>
                     </span>
-                      <h4>You</h4>
-                      <p></p>
-                      <p>pe tine! Te așteptăm să ne contactezi folosind <a class="page-scroll" href="#contact">formularul</a> de mai jos!</p>
-                  </div>
-              </div>
-            </div>
+            <h4>You</h4>
+            <p></p>
+            <p>pe tine! Te așteptăm să ne contactezi folosind <a class="page-scroll" href="#contact">formularul</a> de mai jos!</p>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </section>

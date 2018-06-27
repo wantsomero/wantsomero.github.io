@@ -5,8 +5,8 @@
                 <div class="blog-index">
 					{% for post in site.posts offset: 0 limit: 30 %}
 						{% if post.category == "blog" %}
-						<h2><a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a></h2>
-						<h4><date>{{ post.date | date: "%B %-d, %Y" }}</date></h4>
+						<h1><a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a></h1>
+						<h3><date>{{ post.date | date: "%B %-d, %Y" }}</date></h3>
 							{{ post.excerpt }}
 						{% endif %}
 					{% endfor %}

@@ -12,7 +12,7 @@ people:
   pic: iuliana
   position: Co-Founder & Trainer
   social:
-    - title: linkedin
+    - title: linkedin-in
       url: https://linkedin.com/in/iulianaanton
 
 - name: Enciu Stoica
@@ -20,7 +20,7 @@ people:
   position: Co-Founder & Trainer
   courses: ['testare-manuala','testare-automata']
   social:
-    - title: linkedin
+    - title: linkedin-in
       url: https://linkedin.com/in/enciustoica
     - title: twitter
       url: https://twitter.com/encius
@@ -30,7 +30,7 @@ people:
   position:  Trainer
   courses: ['testare-manuala']
   social:
-    - title: linkedin
+    - title: linkedin-in
       url: https://linkedin.com/in/ionmacari
 
 - name: Vali Popa
@@ -38,7 +38,7 @@ people:
   position: Trainer
   courses: ['testare-automata','testare-manuala']
   social:
-    - title: linkedin
+    - title: linkedin-in
       url: https://linkedin.com/in/vapopa
     - title: twitter
       url: https://twitter.com/valime
@@ -48,7 +48,7 @@ people:
   position: Trainer
   courses: ['programare-dot-net']
   social:
-    - title: linkedin
+    - title: linkedin-in
       url: https://linkedin.com/in/liviucostea
     - title: twitter
       url: https://twitter.com/clm160
@@ -57,7 +57,7 @@ people:
   pic: diana
   position: Career Advisor
   social:
-    - title: linkedin
+    - title: linkedin-in
       url: https://linkedin.com/in/diana-sofian-b4253989
 
 - name: Bogdan Rusu
@@ -65,7 +65,7 @@ people:
   position: Trainer
   courses: ['testare-manuala']
   social:
-    - title: linkedin
+    - title: linkedin-in
       url: https://www.linkedin.com/in/bogdan-rusu-5288a43
 
 - name: Sebastian Ungureanu
@@ -73,7 +73,7 @@ people:
   position: Trainer
   courses: ['network-infrastructure']
   social:
-    - title: linkedin
+    - title: linkedin-in
       url: https://www.linkedin.com/in/sebastian-ungureanu-89621215
 
 - name: Michael Stoica
@@ -81,7 +81,7 @@ people:
   position: Trainer
   courses: ['network-infrastructure']
   social:
-    - title: linkedin
+    - title: linkedin-in
       url: https://www.linkedin.com/in/michaelstoica
     - title: twitter
       url: https://twitter.com/michaelstoica
@@ -91,7 +91,7 @@ people:
   position: Trainer
   courses: ['programare-dot-net']
   social:
-    - title: linkedin
+    - title: linkedin-in
       url: https://www.linkedin.com/in/ciprian-lipan-93a5b517/
 
 - name: Eugen Anghel
@@ -99,7 +99,7 @@ people:
   position: Trainer
   courses: ['programare-java']
   social:
-    - title: linkedin
+    - title: linkedin-in
       url: https://www.linkedin.com/in/eugenanghel/
 
 - name: Răzvan Savel
@@ -107,7 +107,7 @@ people:
   position: Trainer
   courses: ['testare-automata']
   social:
-    - title: linkedin
+    - title: linkedin-in
       url: https://linkedin.com/in/razvansavel
 
 - name: Răzvan Feidi
@@ -115,7 +115,7 @@ people:
   position: Trainer
   courses: ['programare-java']
   social:
-    - title: linkedin
+    - title: linkedin-in
       url: https://linkedin.com/in/razvan-feidi-49744a10
 
 - name: Codruța Salomia
@@ -123,7 +123,7 @@ people:
   position: Trainer
   courses: ['testare-manuala']
   social:
-    - title: linkedin
+    - title: linkedin-in
       url: https://www.linkedin.com/in/codruta-salomia-3b2473/
 
 - name: Andrei Hrișcă
@@ -131,8 +131,17 @@ people:
   position: Trainer
   courses: ['testare-manuala']
   social:
-    - title: linkedin
+    - title: linkedin-in
       url: https://www.linkedin.com/in/andrei-hrisca-2a5306b/
+
+
+- name: Daniel Gheorghian
+  pic: daniel_gheorghian
+  position: Trainer
+  courses: ['programare-java']
+  social:
+    - title: linkedin-in
+      url: https://ro.linkedin.com/in/daniel-gheorghian-67396427
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -148,7 +157,7 @@ social:
 twitter_username: wantsomero
 # Postal address (add as many lines as necessary)
 address:
-  - line: Str. Voievozilor nr. 555
+  - line: Str. Colonel Langa nr. 17
   - line: Iasi, Romania
 
 # Build settings
@@ -156,6 +165,9 @@ markdown: kramdown
 permalink: /:title.html
 plugins:
   - jekyll-sitemap
+  - jekyll-minifier
+  - jekyll-font-awesome-sass
+
 
 mini_magick:
     thumbnail:
@@ -166,3 +178,5 @@ mini_magick:
         extent: "200x200"
 
 include: .nojekyll
+font-awesome:
+  assets: true
